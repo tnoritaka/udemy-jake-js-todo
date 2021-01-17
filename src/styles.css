@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  outline: none;
+  cursor: pointer;
+}
+li {
+  margin-right: 8px;
+}
+button:hover,
+button:focus {
+  background-color: #ff7fff;
+  color: #fff;
+}
+.input {
+  background-color: steelblue;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.imcomplete {
+  background-color: rgb(114, 138, 65);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+.complete {
+  background-color: #c1ffff;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #669;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
